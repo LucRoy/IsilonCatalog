@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VRO Endpoint Setting" max_length="40" name="x_446314_isilon_se_vro_endpoint_setting" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Authorization Type" max_length="40" name="authorization_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Base URL" max_length="200" name="base_url" type="string"/>
+        <element label="Mid Server List" max_length="4000" name="mid_server_list" reference="ecc_agent" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="80" name="password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Username" max_length="80" name="username" type="string"/>
+    </element>
+</database>

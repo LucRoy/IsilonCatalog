@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="mid_server_list" label="Mid Server List" language="en" table="x_446314_isilon_se_vro_endpoint_setting">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mid_server_list</element>
+            <help/>
+            <hint/>
+            <label>Mid Server List</label>
+            <language>en</language>
+            <name>x_446314_isilon_se_vro_endpoint_setting</name>
+            <plural>Mid Server Lists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-14 17:07:11</sys_created_on>
+            <sys_id>67d2f590db470010fc3770e239961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mid Server List</sys_name>
+            <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
+            <sys_update_name>sys_documentation_x_446314_isilon_se_vro_endpoint_setting_mid_server_list_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-14 17:07:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

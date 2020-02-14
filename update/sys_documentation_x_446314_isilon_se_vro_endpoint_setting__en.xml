@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="VRO Endpoint Setting" language="en" table="x_446314_isilon_se_vro_endpoint_setting">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>VRO Endpoint Setting</label>
+            <language>en</language>
+            <name>x_446314_isilon_se_vro_endpoint_setting</name>
+            <plural>VRO Endpoint Settings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-14 15:40:36</sys_created_on>
+            <sys_id>6b0f51d4dbc30010fc3770e239961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VRO Endpoint Setting</sys_name>
+            <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
+            <sys_update_name>sys_documentation_x_446314_isilon_se_vro_endpoint_setting__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-14 15:40:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
