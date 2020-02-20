@@ -14,12 +14,6 @@ Isilon_VRO_RestApi.prototype =  {
 	_controlRecord: null,
     isAuthorized: false,
 	
-// 	setRestErr: function(error) {
-// 		if (!gs.nil(this._restErr))
-// 			this._restErr += "\n";
-// 		this._restErr += restErr;
-// 	},
-	
     RESTCall: function(url, method, jsonData) {
         var restErr = "";
         try {
@@ -108,12 +102,15 @@ Isilon_VRO_RestApi.prototype =  {
 
     _getEndpointSetting: function(endpoint_Sysid) {
         var rec = new GlideRecord('x_446314_isilon_se_vro_endpoint_setting');
-        rec.get(endpoint_Sysid);
+        //rec.get(endpoint_Sysid);
+		gs.info(endpoint_Sysid);
+		var returnValue = rec.get(endpoint_Sysid);
+		gs.info(returnValue); // logs true or false
         return rec;
     },
 
     _init: function() {
-        var auth_type = this._controlRecord.u_string_8.toString();
+        var auth_type = this._controlRecord.authorization_type.toString();
         switch (auth_type) {
             case "Token":
                 this.getToken();
@@ -137,24 +134,24 @@ Isilon_VRO_RestApi.prototype =  {
         if (this._isAuthorized) {
             r.setRequestHeader("Authorization", this.getToken());
         }
-        if (this._controlRecord.u_string_8.toString() == 'Token') {
-            var password = this._controlRecord.u_string_full_utf8_7.toString();
-            var username = this._controlRecord.u_string_6.toString();
+        if (this._controlRecord.authorization_type.toString() == 'Token') {
+            var password = this._controlRecord.password.toString();
+            var username = this._controlRecord.username.toString();
             gs.info("Basic Auth, user name: " + username);
             r.setBasicAuth(username, password);
         }
 
         r.setHttpMethod(method);
 		
-		if(!(this._controlRecord.u_glide_list_1.nil())){
+		if(!(this._controlRecord.mid_server_list.nil())){
 			var mid = new GlideRecord('ecc_agent');
-			var sysids = this._controlRecord.u_glide_list_1.split(',');
+			var sysids = this._controlRecord.mid_server_list.split(',');
 			mid.get(sysids[0]);
 			gs.info("mid server = " + mid.name.toString());
 			r.setMIDServer(mid.name.toString());
 		}
 
-        var baseUrl = this._controlRecord.u_string_3.toString();
+        var baseUrl = this._controlRecord.base_url.toString();
         if (baseUrl.charAt((baseUrl.length - 1) != "/")) {
             baseUrl = baseUrl + "/";
         }
@@ -167,7 +164,7 @@ Isilon_VRO_RestApi.prototype =  {
 	toJSON: function(obj){
 		var json = new global.JSON();
 		var val =  json.encode(obj);
-		// gs.info(val);
+		gs.info(val);
 		return val;
 	},
 
@@ -181,13 +178,13 @@ Isilon_VRO_RestApi.get = function(endpoint_Sysid) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-14 17:00:03</sys_created_on>
         <sys_id>cc903510db470010fc3770e2399619dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Isilon_VRO_RestApi</sys_name>
         <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
         <sys_update_name>sys_script_include_cc903510db470010fc3770e2399619dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-14 17:59:04</sys_updated_on>
+        <sys_updated_on>2020-02-20 20:00:50</sys_updated_on>
     </sys_script_include>
 </record_update>
