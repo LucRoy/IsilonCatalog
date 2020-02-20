@@ -13,22 +13,25 @@ var restApi = new Isilon_VRO_RestApi(id, true);
 gs.info("done");
 var url = 'vco/api/workflows/bac8ea8e-3117-4ec1-a97b-70b15d611e3c/executions';
 var jsonTry =  new global.JSON();
-var payLo = '{"parameters": [{"value": {"string": {"value": "networker_trial"}},"type": "string","name": "adapter","scope": "local"}]}';
-var payload = jsonTry.decode(payLo);
-var rest = restApi.RESTCall(url, "post", payload);
-gs.info("Response: " + JSON.stringify(rest));]]></script>
+var payload = { parameters: [{ value: { string: { value: "networker_trial"}}, type: "string", name: "adapter", scope: "local"}]};
+//var payload = jsonTry.decode(payLo);
+//var response = restApi.RESTCall(url, "post", payload);
+var response = restApi.executeWorkflow(url, payload);
+//var location = response.getHeader("Location");
+//gs.info("Location: " + location);
+gs.info("Response: " + JSON.stringify(response));]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-14 17:01:02</sys_created_on>
         <sys_id>6b413150db470010fc3770e23996195b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Test REST Api</sys_name>
         <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
         <sys_update_name>sys_script_fix_6b413150db470010fc3770e23996195b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 19:41:53</sys_updated_on>
+        <sys_updated_on>2020-02-20 22:03:14</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
