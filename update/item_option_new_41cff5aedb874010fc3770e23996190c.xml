@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="Create CIFS Share">ed5af5a6db874010fc3770e2399619c3</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -36,11 +36,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>enter_the_host_ip_address</name>
+        <name>share_name</name>
         <order>2</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Enter the host IP address</question_text>
+        <question_text>Share name</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -57,25 +57,25 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-14 16:16:21</sys_created_on>
-        <sys_id>83266150db070010fc3770e23996192c</sys_id>
+        <sys_created_on>2020-02-21 17:51:01</sys_created_on>
+        <sys_id>41cff5aedb874010fc3770e23996190c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Enter the host IP address</sys_name>
+        <sys_name>Share name</sys_name>
         <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
-        <sys_update_name>item_option_new_83266150db070010fc3770e23996192c</sys_update_name>
+        <sys_update_name>item_option_new_41cff5aedb874010fc3770e23996190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 18:02:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 18:29:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex display_value="IP Address">3f2ecbf3db320010db7de4da4b961922</validate_regex>
+        <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Host Information">80f5ad10db070010fc3770e239961940</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=83266150db070010fc3770e23996192c"/>
-    <fx_price action="delete_multiple" query="id=83266150db070010fc3770e23996192c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=41cff5aedb874010fc3770e23996190c"/>
+    <fx_price action="delete_multiple" query="id=41cff5aedb874010fc3770e23996190c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>83266150db070010fc3770e23996192c</id>
+        <id>41cff5aedb874010fc3770e23996190c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-14 16:16:21</sys_created_on>
-        <sys_id>c7372114db070010fc3770e23996190f</sys_id>
+        <sys_created_on>2020-02-21 17:51:01</sys_created_on>
+        <sys_id>ca00ceaedb874010fc3770e23996190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-14 16:16:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 17:51:01</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>83266150db070010fc3770e23996192c</id>
+        <id>41cff5aedb874010fc3770e23996190c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-14 16:16:21</sys_created_on>
-        <sys_id>0b372114db070010fc3770e23996190e</sys_id>
+        <sys_created_on>2020-02-21 17:51:01</sys_created_on>
+        <sys_id>8200ceaedb874010fc3770e23996190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-14 16:16:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 17:51:01</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

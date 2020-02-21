@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Create CIFS Share">ed5af5a6db874010fc3770e2399619c3</catalog_item>
+        <catalog_variable>IO:4d9686e2dbc74010fc3770e2399619c9</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:18:00</sys_created_on>
+        <sys_id>bfc3d622db0b4010fc3770e2399619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>replication_host</sys_name>
+        <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_bfc3d622db0b4010fc3770e2399619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:18:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Activate Replication Fields">dd70d2eedbc74010fc3770e23996192c</ui_policy>
+        <variable>replication_host</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</application>
+        <file_path/>
+        <instance_id>b18d42c2dbf47b048aea21c40596195b</instance_id>
+        <instance_name>dev81131</instance_name>
+        <name>catalog_ui_policy_action_bfc3d622db0b4010fc3770e2399619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Create CIFS Share">ed5af5a6db874010fc3770e2399619c3</catalog_item><catalog_variable>IO:4d9686e2dbc74010fc3770e2399619c9</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 19:18:00</sys_created_on><sys_id>bfc3d622db0b4010fc3770e2399619be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>replication_host</sys_name><sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package><sys_policy/><sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope><sys_update_name>catalog_ui_policy_action_bfc3d622db0b4010fc3770e2399619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 19:18:00</sys_updated_on><table/><ui_policy display_value="Activate Replication Fields">dd70d2eedbc74010fc3770e23996192c</ui_policy><variable>replication_host</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1883513986</payload_hash>
+        <record_name>replication_host</record_name>
+        <reverted_from/>
+        <source>1cd3bd90db470010fc3770e239961936</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:18:00</sys_created_on>
+        <sys_id>d8f3de62db0b4010fc3770e239961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692f6b060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:18:00</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>14f3de62f10b4010ba51c52c71482869</update_guid>
+        <update_guid_history>14f3de62f10b4010ba51c52c71482869:-1883513986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="replication_host">c145dea2db0b4010fc3770e239961927</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:23:47</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2a14207fdf584214a4cd5d12426b4ac4</sys_id>
+        <sys_metadata>bfc3d622db0b4010fc3770e2399619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>replication_host</sys_name>
+        <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
+        <sys_scope_delete display_value="">b25d4d37fd6d46b0bc46b751ae05f504</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_bfc3d622db0b4010fc3770e2399619be</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_bfc3d622db0b4010fc3770e2399619be">d8f3de62db0b4010fc3770e239961969</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
