@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>No</default_value>
+        <default_value>Yes</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 18:15:10</sys_created_on>
         <sys_id>f9758ae2dbc74010fc3770e2399619ce</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Create Directory</sys_name>
         <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
         <sys_update_name>item_option_new_f9758ae2dbc74010fc3770e2399619ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 20:42:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 20:52:35</sys_updated_on>
         <table/>
         <tooltip>Create Directory flag</tooltip>
         <type>1</type>
