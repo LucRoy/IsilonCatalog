@@ -9,7 +9,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>Remove an Isilon array from the Service Catalog. This dereferences an Isilon array preventing it from usage with Catalog Items.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Remove Isilon Instance</name>
+        <name>Deregister Isilon Instance</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -50,21 +50,21 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description/>
+        <short_description>Remove an Isilon array from the service catalog.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 16:22:27</sys_created_on>
         <sys_id>86ab296adb474010fc3770e23996194a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Remove Isilon Instance</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Deregister Isilon Instance</sys_name>
         <sys_package display_value="Isilon Service Catalog" source="x_446314_isilon_se">cbcd5554dbc30010fc3770e2399619a4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Isilon Service Catalog">cbcd5554dbc30010fc3770e2399619a4</sys_scope>
         <sys_update_name>sc_cat_item_86ab296adb474010fc3770e23996194a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 20:44:00</sys_updated_on>
+        <sys_updated_on>2020-02-21 20:59:51</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>

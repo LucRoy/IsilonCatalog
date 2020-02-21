@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Create CIFS Share">ed5af5a6db874010fc3770e2399619c3</sc_cat_item>
+        <sc_cat_item display_value="Create Isilon CIFS Share">ed5af5a6db874010fc3770e2399619c3</sc_cat_item>
         <sc_category display_value="Isilon Provisioning Services">e953fd62db874010fc3770e2399619bb</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
